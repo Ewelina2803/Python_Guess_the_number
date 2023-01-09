@@ -10,7 +10,7 @@ while guess != my_number:
     guess=int(input())
 
     if guess == my_number:
-        print("Gratulation! That's the right number :)")
+        print("Congratulations! That's the right number :)")
     elif guess > my_number:
         print("Unfortunately, your number is too high :( Try again!")
     else:
